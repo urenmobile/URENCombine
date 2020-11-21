@@ -4,9 +4,7 @@
 
 `URENCombine` is an open source project with event driven programming which developed by `Uren Mobile` according to Apple's [Combine](https://developer.apple.com/documentation/combine) framework. The main goal of `URENCombine` is provide more used feature in the Apple [Combine](https://developer.apple.com/documentation/combine) framework.
 
-## Welcome to Uren
-
-To learn more about the `Uren Mobile`, visit [urenmobile.com](https://urenmobile.com).
+## Welcome to URENCombine
 
 - [Getting Started](#getting-started)
   - [Requirements](#requirements)
