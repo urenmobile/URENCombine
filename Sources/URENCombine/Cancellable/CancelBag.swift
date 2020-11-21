@@ -17,7 +17,7 @@ public final class CancelBag {
     
     public init() { }
     
-    fileprivate func store(_ cancellable: Cancellable) {
+    func store(_ cancellable: Cancellable) {
         cancellables.append(cancellable)
     }
     
