@@ -53,6 +53,15 @@ final public class PassthroughSubject<Output, Failure: Error>: Subject {
             }
         }
     }
+    
+    private func remove(subscription: SubscriptionChannel) {
+        lock.lock {
+            guard let index = subscriptions.firstIndex(where: {$0 === subscription}) else {
+                return
+            }
+            subscriptions.remove(at: index)
+        }
+    }
 }
 
 extension PassthroughSubject {
